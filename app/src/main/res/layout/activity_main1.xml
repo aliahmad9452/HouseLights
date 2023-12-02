@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#171616"
+android:text="Setting specific on/off times for lights can offer several benefits, both in terms of convenience and energy efficiency. Here are some advantages:"                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#171616"
+android:text="Energy Savings:\n
+
+One of the primary benefits is energy savings. By programming specific on/off times, users can ensure that lights are only in use when needed. This reduces unnecessary energy consumption and lowers electricity bills."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7700FF"
+android:text="Environmental Impact:\n
+
+Reduced energy consumption also has positive environmental impacts. By using less electricity, individuals contribute to lower carbon emissions and a smaller ecological footprint."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F80500"
+android:text="Cost Savings:\n
+
+Controlling when lights are on can lead to cost savings on electricity bills. Over time, these savings can add up, providing users with financial benefits."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:text="Convenience:\n
+
+Automation of lighting through scheduled on/off times adds convenience to daily life. Users don't have to manually turn lights on or off, especially in spaces like outdoor areas or rooms that are frequently used at specific times."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Security:\n
+
+Setting lights to turn on and off at specific times can create the illusion of occupancy, enhancing home security. This is particularly useful when users are away from home, as it can deter potential intruders."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:text="Sleep Quality:\n
+
+In the evening, using scheduled on/off times for lights can contribute to better sleep quality. Reducing exposure to bright lights close to bedtime helps regulate the body's circadian rhythm and promotes a more restful sleep."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+android:text="Extended Bulb Lifespan:\n
+
+Regularly turning off lights when they are not needed can extend the lifespan of light bulbs. This is because frequent on/off cycles can contribute to wear and tear, and reducing these cycles helps bulbs last longer."/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

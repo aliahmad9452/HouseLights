@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity3">
+
+    <!-- Scroll View for Tips -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fillViewport="true">
+
+        <!-- Linear Layout for Tips -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="16dp">
+
+            <!-- Daily Quick Sweep -->
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="incorporating these localized tips, your app can become more personalized and valuable to users, addressing their specific needs and enhancing their understanding of how energy-saving practices can be tailored to their unique environment."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Daylight Hours Information:
+
+Provide information about the local sunrise and sunset times. This can help users optimize their lighting schedules to align with natural daylight, reducing the need for artificial lighting during the day.
+Seasonal Variations:
+
+Offer tips based on seasonal changes in the user's location. For example, suggest adjustments to lighting schedules during longer or shorter days, or provide reminders to take advantage of natural light during specific seasons.
+Climate Considerations:
+
+Consider the local climate when offering tips. In warmer climates, users might benefit from scheduling lights to be off during the hottest parts of the day to reduce heat buildup.
+Local Energy Pricing:
+
+Provide information about local energy pricing and peak hours. Users can adjust their lighting schedules to avoid peak times when electricity rates may be higher.
+Environmental Initiatives:
+
+Share information about local environmental initiatives or energy-saving campaigns. This can inspire users to actively participate in regional efforts to reduce energy consumption."
+                android:layout_marginBottom="16dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
